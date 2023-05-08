@@ -1,7 +1,16 @@
      <script src="https://wowflow.com/wp-content/themes/shadepro/assets/js/pristine.min.js"></script>
     <script src="https://wowflow.com/wp-content/themes/shadepro/assets/js/popper.min.js"></script>
     <script src="https://wowflow.com/wp-content/themes/shadepro/assets/js/intlTelInput.js"></script>
-  <div class="main-trial-flow-body">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+          <div class="main-trial-flow-body">
         <div class="main-trial-flow">
             <div class="main-trial-flow-inner">
                 <div class="main-trial-flow-inner-wrapper">
@@ -13,42 +22,32 @@
                             </path>
                         </svg>
                     </div>
-                    <div class="main-trial-flow-header-logo">
-                        <img src="https://wowflow.com/wp-content/uploads/2023/02/logo.svg" alt="wowflow logo">
-                    </div>
-                    <!-- <div class="main-trial-flow-cross">
-                        <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.5957 1.20215L25.769 25.3754M25.769 1.20215L1.59571 25.3754" stroke="#9D9D9D"
-                                stroke-width="2.01444" />
-                        </svg>
-                    </div> -->
+                 
+              
                 </div>
 
 
             </div>
             <div class="first-step-wrapper">
                 <div class="main-trial-flow-header">
-                    <!-- <div class="main-trial-flow-header-logo">
-                <img src="https://stagewp.wowflow.com/wp-content/themes/shadepro/assets/img/logo.svg" alt="wowflow logo">
-              </div> -->
-                    <h2>Testen <br>Sie Wowflow</h2>
-                    <h3>14 Tage lang kostenlos.</h3>
-                    <p>Ohne Kreditkarte. Ohne Verpflichtungen.</p>
+               
+                    <h2>Sign In</h2>
+                    <p>Enter your email and password to continue</p>
                 </div>
                 <form class="first-step-form" novalidate name="first-step-form">
                     <div class="form-group">
                         <input class="form-control" autofocus type="email" name="email" required
-                            placeholder="Ihre E-Mail-Adresse" id="email"
-                            data-pristine-required-message="Dies ist ein Pflichtfeld."
-                            data-pristine-email-message="Das E-Mail-Feld muss eine gültige E-Mail-Adresse sein." />
+                            placeholder="E-Mail-Adress" id="email"
+                            data-pristine-required-message="This is a mandatory field."
+                            data-pristine-email-message="The email field must be a valid email address." />
                     </div>
 
                     <div class="form-group main-trial-flow-password">
                         <input type="password" name="password" id="password" required
-                            placeholder="Wählen Sie Ihr Passwort" class="form-control"
+                            placeholder="Choose Password" class="form-control"
                             data-pristine-pattern="/^(?=.*[A-Za-z])(?=.*?[0-9]).{8,}$/"
-                            data-pristine-required-message="Dies ist ein Pflichtfeld."
-                            data-pristine-pattern-message="Mindestens 8 Zeichen. Mindestens 1 Ziffer und 1 Buchstabe." />
+                            data-pristine-required-message="This is a mandatory field."
+                            data-pristine-pattern-message="At least 8 characters. At least 1 digit and 1 letter." />
                         <label class="toggle-view-password" for="password"><b>Toggle view password</b>
                             <svg xmlns="http://www.w3.org/2000/svg" width="21" height="13" viewBox="0 0 21 13"
                                 fill="none">
@@ -63,9 +62,9 @@
                         <input type="password" name="password" data-pristine-equals="#password" required
                             placeholder="Wiederholen Sie Ihr Passwort" class="form-control"
                             data-pristine-pattern="/^(?=.*[A-Za-z])(?=.*?[0-9]).{8,}$/"
-                            data-pristine-required-message="Dies ist ein Pflichtfeld."
-                            data-pristine-pattern-message="Mindestens 8 Zeichen. Mindestens 1 Ziffer und 1 Buchstabe."
-                            data-pristine-equals-message="Das Passwort stimmt nicht überein. " />
+                            data-pristine-required-message="This is a mandatory field."
+                            data-pristine-pattern-message="At least 8 characters. At least 1 digit and 1 letter."
+                            data-pristine-equals-message="Password is not same. " />
                         <label class="repeated-toggle-view-password" for="password"><b>Toggle view password</b>
                             <svg xmlns="http://www.w3.org/2000/svg" width="21" height="13" viewBox="0 0 21 13"
                                 fill="none">
@@ -78,74 +77,53 @@
 
 
                     <div class="privacy-text">
-                        <p>Mit der Anmeldung stimmen Sie unseren <a
-                                href="/datenschutz-bestimmungen/">Datenschutzbestimmungen</a>
-                            zu.
+                        <p>By registering, you agree to our privacy policy.
                         </p>
                     </div>
 
                     <div class="form-group">
-                        <button>Weiter</button>
+                        <button>Continue</button>
                     </div>
-                    <p class="main-trial-flow-signin"><a href="https://admin.wowflow.org/login">Haben Sie bereits ein
-                            Konto? <strong class="main-trial-flow-signin-anme">Anmelden</strong></a></p>
+                    <p class="main-trial-flow-signin"><a href="#">Already have an account? <strong>Register</strong></a></p>
+
 
                 </form>
             </div>
             <div class="second-step-wrapper" style="display: none;">
                 <div class="main-trial-flow-header">
-                    <h2>Ein paar letzte<br>Infos noch</h2>
-                    <h3>In einer Minute sind Sie startklar.</h3>
+                    <h2>Your Details</h2>
+                    <h3>Applicant must Complete the fields as Required.</h3>
                 </div>
                 <form class="second-step-form" novalidate name="second-step-form">
                     <div class="form-group">
-                        <input class="form-control" type="text" placeholder="Ihr Vorname" name="firstname" required
-                            data-pristine-required-message="Dies ist ein Pflichtfeld." />
+                        <input class="form-control" type="text" placeholder="First Name" name="firstname" required
+                            data-pristine-required-message="This is a mandatory field." />
                     </div>
 
                     <div class="form-group">
-                        <input class="form-control" type="text" name="lastname" placeholder="Ihr Nachname" required
-                            data-pristine-required-message="Dies ist ein Pflichtfeld." />
+                        <input class="form-control" type="text" name="lastname" placeholder="Last Name" required
+                            data-pristine-required-message="This is a mandatory field.." />
                     </div>
 
                     <div class="form-group-multiple">
                         <div class="form-group">
-                            <select name="company_size" title="Anzahl Ihrer Mitarbeiter/innen" class="form-control">
-                                <option value="0">Anzahl Ihrer Mitarbeiter/innen</option>
-                                <option value="1">1 - 2</option>
-                                <option value="2">3 - 9</option>
-                                <option value="3">10 - 69</option>
-                                <option value="4">70 - 249</option>
-                                <option value="5">250+</option>
-                            </select>
+                            <select name="gender" title="Gender" class="form-control">
+                                <option value="0">Gender</option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                                <option value="3">Transgender</option>
+                               
+                              </select>
                         </div>
 
 
                     </div>
 
                     <div class="form-group">
-                        <select name="industry" title="Ihre Branche" class="form-control">
-                            <option value="0">Ihre Branche</option>
-                            <option value="1">Gebäudereinigung</option>
-                            <option value="2">Facility Management</option>
-                            <option value="3">Wartung & Instandhaltung</option>
-                            <option value="4">Andere </option>
-                        </select>
-                    </div>
+                        <input class="form-control" type="text" placeholder="Country Nationality" name="contrynationality" required
+                          data-pristine-required-message="This is a mandatory field." />
+                      </div>
 
-                    <div class="form-group">
-                        <select name="job_function" title="Ihre Position im Unternehmen" class="form-control">
-                            <option value="0">Ihre Position im Unternehmen</option>
-                            <option value="1">C-Level, Partner, Gründer, Direktor, VP</option>
-                            <option value="2">Projektleiter</option>
-                            <option value="3">Betriebsleiter</option>
-                            <option value="4">Teamleiter/Manager</option>
-                            <option value="5">Teammitglied</option>
-                            <option value="6">Auftragnehmer</option>
-                            <option value="7">Student</option>
-                            <option value="8">Andere position</option>
-                        </select>
-                    </div>
 
                     <div class="form-group" id="trial-flow-phone-wrapper">
                         <input class="form-control" name="phone" id="trial-flow-phone" data-type="text"
@@ -160,12 +138,6 @@
 
 
 
-
-
-
-
-
-
                     <div class="form-group">
                         <button>Registrieren und starten</button>
                     </div>
@@ -174,6 +146,63 @@
                 </form>
 
             </div>
+
+            <div class="third-step-wrapper" style="display: none;">
+                <div class="main-trial-flow-header">
+                  <div class="main-trial-flow-header-logo">
+                    <img src="./assets/images/logo.svg" alt=" logo">
+                  </div>
+                  <h2>Appoinment Details</h2>
+                  <h3>Applicant must Complete the fields as Required.</h3>
+                </div>
+                <form class="third-step-form" novalidate name="third-step-form">
+               
+        
+        
+                    <div class="form-group">
+                        <select name="Category" title="Category" class="form-control">
+                          <option value="0">Appoinment Category </option>
+                          <option value="1">National Visa (Type D)</option>
+                          <option value="2">Sovereign visa (Type C)</option>
+                          <option value="3">Recommendation</option>
+                          <!-- <option value="4">Andere position</option> -->
+                        </select>
+                      </div>
+             
+        
+        
+                      <div class="form-group">
+                        <select name="subcategory" title="subcategory" class="form-control">
+                          <option value="0">Appoinment Sub-Category</option>
+                          <option value="1">Higher Education</option>
+                          <option value="2">Turkish Citizen work permit</option>
+                          <option value="3">foreigners work permit</option>
+                          <option value="4">Long stay Other</option>
+                        </select>
+                      </div>
+                
+        
+        
+                  <div class="form-group">
+                    <select name="Center" title="Center" class="form-control">
+                      <option value="0">Visa Appication Center</option>
+                      <option value="1">Ankara</option>
+                      <option value="2">Istambul</option>
+                      <option value="3">lamir</option>
+                      <option value="4">Turkey</option>
+                    </select>
+                  </div>
+        
+                 
+        
+                  <div class="form-group">
+                    <button>Registrieren und starten</button>
+                  </div>
+        
+        
+                </form>
+        
+              </div>
 
             <div class="submit-form-wrapper" style="display: none;">
                 <div class="main-trial-flow-header-sucess ">
@@ -212,8 +241,6 @@
 
         </div>
     </div>
-
-
 
     <style>
         .main-trial-flow-cross{
@@ -698,6 +725,7 @@
 
         const firstStepForm = document.querySelector('.first-step-form');
         const secondStepForm = document.querySelector('.second-step-form');
+        // const thirdStepWrapper = document.querySelector('.third-step-wrapper');
 
         const mainTrialFlowModal = document.querySelector('.main-trial-flow-modal');
         // const mainTrialFlowCross = document.querySelector('.main-trial-flow-cross');
@@ -1016,6 +1044,8 @@
         const firstStepWrapper = document.querySelector('.first-step-wrapper');
         const secondStepWrapper = document.querySelector('.second-step-wrapper');
         const submitFormWrapper = document.querySelector('.submit-form-wrapper');
+         const thirdStepWrapper = document.querySelector('.third-step-wrapper');
+
         const mainTrialFlow = document.querySelector('.main-trial-flow');
 
         firstStepForm.onsubmit = function (e) {
@@ -1032,19 +1062,32 @@
         }
 
         secondStepForm.onsubmit = function (e) {
-            e.preventDefault();
-            const pristine = new Pristine(secondStepForm);
-            const secondStepValidate = pristine.validate();
-            if (secondStepValidate === true) {
-                handleSubmitButton(true);
-                pushToHubspot();
-                console.log('success')
+      e.preventDefault();
+      const pristine = new Pristine(secondStepForm);
+      const secondStepValidate = pristine.validate();
+      if (secondStepValidate === true) {
+        // animateToggle(firstStepWrapper, 'none', 0.3);
+        // animateToggle(secondStepWrapper, 'block', 0.29);
+        secondStepWrapper.style.display = 'none'
+        thirdStepWrapper.style.display = 'block'
+      }
+    }
 
 
-            }
-            // console.log(secondStepValidate)
-        }
+    // second form submit fucntion temporary Comment
 
+    // secondStepForm.onsubmit = function (e) {
+    //   e.preventDefault();
+    //   const pristine = new Pristine(secondStepForm);
+    //   const secondStepValidate = pristine.validate();
+    //   if (secondStepValidate === true) {
+    //     handleSubmitButton(true);
+    //     pushToHubspot();
+    //     console.log('success')
+
+
+    //   }
+    // }
 
 
 
@@ -2271,13 +2314,12 @@
 
             }
 
-            .main-trial-flow-header-logo img,
+            /* .main-trial-flow-header-logo img,
             .main-trial-flow-header-sucess-logo img,
             .main-trial-flow-header-fail-logo img {
                 width: 204px;
-                /* padding-bottom: 14px; */
 
-            }
+            } */
 
             .main-trial-flow-header h2,
             .main-trial-flow-header-sucess h2,
@@ -3969,3 +4011,8 @@
             background-color: transparent;
         }
     </style>
+    </body>
+    </html>
+
+
+
